@@ -34,6 +34,35 @@ La decisión final que se debe tomar al crear un repositorio es de si se debe in
 ## Agreagando Colaboradores
 Ya creado e inicializado el repositorio, el siguiente paso es de agregar colaboradores.  Si se creó el repositorio como público, no se necesita agregar colaboradores, especialmente si se está trabajando con gente ocasionalmente.
 
+
+## EJEMPLO
+
+## _Creando un nuevo repositorio en la línea de comando_
+
+echo "# test" >> README.md
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/Marvin9516008/test.git
+
+git push -u origin main
+
+## _Push un repositorio existente desde la linea de comando_
+git remote add origin https://github.com/Marvin9516008/test.git
+
+git branch -M main
+
+git push -u origin main
+
+
+
+
 ## Lista de principales comandos GIT
 
 ## _Configuración de Git & INIT_
